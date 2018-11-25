@@ -14,5 +14,5 @@ const carlo = require('carlo');
   await app.exposeFunction('env', _ => process.env);
 
   // Navigate to the main page of your app.
-  await app.load('example.html');
+  await app.load('dist/index.html');
 })();
